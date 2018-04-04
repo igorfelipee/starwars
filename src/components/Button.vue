@@ -1,7 +1,7 @@
 <template>
-  <div class="starwars__button">
-      {{title}}
-  </div>
+    <router-link class="starwars__button" :to=link>
+            {{title}}
+    </router-link>  
 </template>
 
 <script>
@@ -9,6 +9,7 @@ export default {
   name: 'Button',
   props: [
       'title',
+      'link'
   ],
 }
 </script>
@@ -21,6 +22,8 @@ export default {
     justify-content: center;
     align-items: center;
     background-color: #0984e3;
+    cursor: pointer;
+    text-decoration: none;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
