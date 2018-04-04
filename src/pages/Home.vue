@@ -20,16 +20,10 @@ export default {
 
 <style lang="scss">
 .starwars__home{
-    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-}
-@media(min-width: 768px){
-    .starwars__home{
-        width: 45%;
-    }
 }
 </style>

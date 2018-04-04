@@ -22,10 +22,17 @@ body{
   background-image: url(./assets/bg.gif);
 }
 #app{
+  width: 80%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+}
+@media(min-width:768px){
+  #app{
+    width: 45%;
+  }
 }
 </style>
