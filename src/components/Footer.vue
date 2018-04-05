@@ -1,6 +1,6 @@
 <template>
   <div class="starwars__footer">
-      <p>Made with <img src="../assets/like.svg" alt="Heart"/> and Vuejs by Igor Felipe</p>
+    <p>Made with <img src="../assets/like.svg" alt="Heart"/> and Vuejs by <router-link :to="{ path: '/about' }">Igor Felipe</router-link></p>
   </div>
 </template>
 
@@ -24,6 +24,12 @@ export default {
             display: inline;
             width: 18px;
             vertical-align: middle;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid #fdcb6e;
         }
     }
 }

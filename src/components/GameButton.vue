@@ -34,5 +34,6 @@ export default {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 </style>

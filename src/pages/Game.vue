@@ -1,15 +1,19 @@
 <template>
   <div class="starwars__game">
+      <starwarserror v-if="showError"></starwarserror>
       <starwarsloader v-if="isLoading"></starwarsloader>
       <starwarscard :planet="this.planet"></starwarscard>
       <starwarsgamebtn :go="getPlanet.bind()"></starwarsgamebtn>
+      <starwarsbtn title="Go back to home" link="/"></starwarsbtn>
   </div>
 </template>
 
 <script>
 import Card from '@/components/Card';
 import GameButton from '@/components/GameButton';
+import Button from '@/components/Button';
 import Loader from '@/components/Loader';
+import ErrorBox from '@/components/Error';
 
 export default {
   name: 'Game',
@@ -17,18 +21,18 @@ export default {
       return{
           planet:'',
           isLoading: true,
+          showError: false,
       }
   },
   components: {
     'starwarscard': Card,
     'starwarsgamebtn': GameButton,
     'starwarsloader': Loader,
+    'starwarserror' : ErrorBox,
+    'starwarsbtn' : Button,
   },
   created() {
       this.getPlanet();
-      setTimeout( () => {
-          this.isLoading = false;
-      }, 1000);
   },
   methods:{
       getPlanet: function(){
@@ -38,12 +42,14 @@ export default {
         this.$http.get('https://swapi.co/api/planets/'+planetnumber)
         .then( response => {
             this.planet = response.body;
+            setTimeout( () => {
+                this.isLoading = false;
+            }, 1000);
         }, err => {
-            console.log(err);
+            this.isLoading = false;
+            this.showError = true;
         });
-        setTimeout( () => {
-          this.isLoading = false;
-        }, 1000);
+
       },
   },
 }
