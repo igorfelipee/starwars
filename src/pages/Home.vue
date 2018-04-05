@@ -1,7 +1,7 @@
 <template>
   <div class="starwars__home">
     <starwarslogo></starwarslogo>
-    <starwarsbtn title="Start the Game" link="play"></starwarsbtn>
+    <starwarsbtn id="home-btn" title="Start the Game" link="play"></starwarsbtn>
   </div>
 </template>
 
