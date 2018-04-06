@@ -40,7 +40,7 @@ Este mesmo, mostra algumas informações de um planeta aleatório contido na sé
 
 ##### Tecnologias Utilizadas
 ###### Vuejs
-Vuejs é uma biblioteca de componentes web criada em javascript. Foi utilizada para a criação dos componentes, criação das rotas e requisições http (utililizando o pacote vue-router).
+Vuejs é uma biblioteca de componentes web criada em javascript. Foi utilizada para a criação dos componentes, criação das rotas e requisições http (utililizando o pacote vue-resource).
 
 ###### SCSS
 Neste projeto, foi utilizado o SASS como pré-processador. O que me forneceu mais poder sobre a linguágem (CSS) e mais reutilização de codigo
