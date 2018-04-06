@@ -1,5 +1,7 @@
-# Star Wars - The Game
-![alt text](https://image.winudf.com/v2/image/Y29tLmNvbGluZWFycHJvZHVjdGlvbnMueW9kYXRoaXNfaWNvbl8wX2VkYWJhYzNk/icon.png?w=170&fakeurl=1&type=.png "Yoda")
+<p align="center">
+<img src="https://image.winudf.com/v2/image/Y29tLmNvbGluZWFycHJvZHVjdGlvbnMueW9kYXRoaXNfaWNvbl8wX2VkYWJhYzNk/icon.png?w=170&fakeurl=1&type=.png" width="250" alt="Yoda">
+</p>
+<h1 align="center">Star Wars - The Game</h1>
 
 ## Sumário
 ---
