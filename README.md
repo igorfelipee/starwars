@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Star Wars - The Game</h1>
 
-## Sumário
+### Sumário
 ---
 + Sobre o Projeto
     + Descrição do Game
