@@ -2,7 +2,7 @@
 ![alt text](https://image.winudf.com/v2/image/Y29tLmNvbGluZWFycHJvZHVjdGlvbnMueW9kYXRoaXNfaWNvbl8wX2VkYWJhYzNk/icon.png?w=170&fakeurl=1&type=.png "Yoda")
 
 ## Sumário
-----------
+---
 + Sobre o Projeto
     + Descrição do Game
     + Como Instalar
