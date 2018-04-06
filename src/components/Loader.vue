@@ -23,14 +23,18 @@ export default {
     align-items: center;
 
     .starwars__loader__wrapper{
-        width: 80px;
-        height: 80px;
+        width: 250px;
+        height: 250px;
         border-radius: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         animation: spin 1s infinite;
+
+        img{
+            width: 100%;
+        }
     }
 }
 //
